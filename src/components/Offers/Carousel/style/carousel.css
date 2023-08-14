@@ -1,0 +1,43 @@
+.carousel-row-container {
+  position: relative;
+  background-color: #ffff;
+  margin-top: 50px;
+  padding: 50px 110px;
+}
+
+.carousel-row-container .swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.carousel-row-container .swiper-button-next,
+.carousel-row-container .swiper-button-prev {
+  display: block;
+  color: black;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  right: 20px;
+  background: none;
+  opacity: 1 !important;
+  transform: rotate(-90deg);
+  border: none;
+}
+
+.carousel-row-container .swiper-button-prev {
+  transform: rotate(90deg);
+  left: 20px;
+}
+
+.swiper-button-next::after {
+  display: none;
+}

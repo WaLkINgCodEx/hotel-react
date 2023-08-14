@@ -1,0 +1,269 @@
+.banyanfooter {
+  background-color: #baa382;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 30px;
+  max-width: 1280px;
+  margin: auto;
+  justify-content: center;
+}
+
+@media (min-width: 960px) {
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.social-buttons {
+  display: flex;
+  height: 100%;
+}
+
+@media (max-width: 960px) {
+  .social-buttons {
+    margin: auto;
+  }
+}
+
+.social-buttons div {
+  width: 40px;
+  height: 40px;
+}
+
+.banyanfooter-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.social-buttons .whatsapp {
+  padding-left: 9px;
+}
+
+@media (max-width: 960px) {
+  .price-col {
+    margin: auto;
+    margin-top: 22px;
+  }
+}
+
+.footer-top .best-price {
+  display: inline-flex;
+  border: 1px solid white;
+  font-size: 1rem;
+  margin: auto;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 10.5px 29px;
+}
+
+.footer-separator {
+  max-width: 100%;
+  margin: 0;
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.footer-mid,
+.footer-bottom {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 30px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.footer-mid .mid-container .min-column {
+  border-radius: 0;
+}
+
+.mid-container .menuClose li:nth-child(n + 2) {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .mid-container .menuClose li:nth-child(n + 2) {
+    display: flex;
+  }
+}
+
+.mid-container ul {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  .mid-container ul {
+    padding-bottom: 8px;
+  }
+}
+
+.mid-container li {
+  font-family: "Niramit Regular", "AXtManalBold Regular", Helvetica, Arial,
+    "Microsoft Yahei", "PingFang SC", "PingFang TC", "PingFang HK",
+    "Hiragino Sans", "sans-serif";
+  font-size: 1rem;
+  padding-top: 0;
+  min-height: auto;
+}
+
+.mid-container li a {
+  color: white;
+  text-transform: capitalize;
+}
+
+.mid-container span {
+  display: inline-flex;
+}
+
+.mid-container .is-head,
+.mid-container .is-headopen {
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  font-family: Reforma_1969, AXtManalBold Regular, Helvetica, Arial,
+    Microsoft Yahei, PingFang SC, PingFang TC, PingFang HK, Hiragino Sans;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .mid-container .is-head,
+  .mid-container .is-headopen {
+    padding-bottom: 20px;
+  }
+}
+
+.mid-container > div:nth-child(3) > ul:nth-child(1) > li > button {
+  display: none;
+}
+
+.footer-mid .footer-mid-arrow {
+  color: white;
+  margin-left: auto;
+  border-radius: 0;
+}
+
+.footer-mid .menuOpen .footer-mid-arrow {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 1200px) {
+  .footer-mid .footer-mid-arrow {
+    display: none;
+  }
+}
+
+.footer-bottom {
+  padding-top: 0px;
+}
+
+@media (max-width: 1279px) {
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-bottom {
+    padding-bottom: 0px;
+  }
+}
+
+.copyright p {
+  font-size: 0.9333333333333333rem;
+  line-height: 1.57;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.footer-bottom span,
+.footer-bottom li {
+  display: inherit;
+  color: white;
+  list-style: none;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.footer-bottom ul {
+  padding-left: 0;
+  display: inline-flex;
+}
+
+@media (min-width: 1280px) {
+  .footer-bottom ul {
+    display: flex;
+  }
+}
+
+.footer-bottom li {
+  margin: 0;
+  margin-right: 15px;
+  font-family: "Niramit Regular", "AXtManalBold Regular", "Helvetica", "Arial",
+    "Microsoft Yahei", "PingFang SC", "PingFang TC", "PingFang HK",
+    "Hiragino Sans", "sans-serif";
+  font-weight: 500;
+  font-size: 0.9333333333333333rem;
+  line-height: 1.57;
+}
+
+.footer-bottom li:nth-child(3) {
+  margin-right: 0;
+}
+
+.footer-bottom-C {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1279px) {
+  .footer-bottom-C {
+    padding-top: 15px;
+  }
+}
+
+.footer-logo {
+  width: 30px;
+  height: 42px;
+}
+
+.footer-bottom-R {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1278px) {
+  .footer-bottom-R {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.footer-bottom-R span {
+  margin: 0;
+  margin-right: 10px;
+  font-family: "Niramit Regular", "AXtManalBold Regular", "Helvetica", "Arial",
+    "Microsoft Yahei", "PingFang SC", "PingFang TC", "PingFang HK",
+    "Hiragino Sans", "sans-serif";
+  font-weight: 500;
+  font-size: 0.9333333333333333rem;
+  line-height: 1.57;
+}
+
+.footer-bottom-R .footer-logo2 {
+  width: 80px;
+}
